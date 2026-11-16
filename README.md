@@ -1,4 +1,4 @@
-### WAD-18 Compute Capsule
+### WAD-18 Deterministic Fixed-Point Control and Verification Kernel
 
 ### Deterministic Integer Computation, Exact Discrete Critical Damping, and Machine-Verifiable Reproducibility
 
