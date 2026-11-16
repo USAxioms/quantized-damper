@@ -1,0 +1,9 @@
+#!/bin/sh
+# CodeOcean entry point: verify the capsule, then publish the evidence files to /results if that folder exists.
+set -e
+cd "$(dirname "$0")"
+make verify
+if [ -d /results ]; then
+  cp ledger.jsonl CSL.log CLAIMS.md ENGINEERS.md /results/
+  cp build/*.log /results/ 2>/dev/null || true
+fi
