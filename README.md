@@ -3,7 +3,7 @@
 ### Deterministic Integer Computation, Exact Discrete Critical Damping, and Machine-Verifiable Reproducibility
 
 ## 1. System Overview
-
+Code Ocean Capsule DOI: 10.24433/CO.6352454.v1
 The WAD-18 Compute Capsule is a zero-dependency C99 implementation built around deterministic integer computation, exact discrete control-system design, independent arithmetic validation, and cryptographically verifiable execution records.
 
 The engineering objective is straightforward: eliminate floating-point variability from the WAD-18 execution path, make numerical behavior deterministic, and provide an executable verification pipeline that checks the implementation against its defined invariants.
